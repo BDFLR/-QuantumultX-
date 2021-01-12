@@ -1,0 +1,52 @@
+[general]
+server_check_url=http://www.gstatic.com/generate_204
+network_check_url=http://bing.com/
+geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/IP_API.js
+excluded_routes= 192.168.0.0/16, 172.16.0.0/12, 127.0.0.0/8, 100.64.0.0/10, 17.0.0.0/8, 10.0.0.0/8
+
+[dns]
+server=114.114.114.114
+server=119.29.29.29
+server=223.5.5.5
+
+[policy]
+static=节点选择, 香港, 新加坡, 其他, 直连, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Proxy.png
+static=NETFLIX, 节点选择, 新加坡, 香港, 其他, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix.png
+static=Telegram, 节点选择, 香港, 新加坡, 其他, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
+static=Emby, 节点选择, 香港, 新加坡, 其他, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Emby.png
+static=香港, 🇭🇰 香港 IEPL 01*, 🇭🇰 香港 IEPL 02*, 🇭🇰 香港 IEPL 03*, 🇭🇰 香港 MC 01, 🇭🇰 香港 MC 02, 🇭🇰 香港 MC 03, 🇭🇰 香港 MC 04, 🇭🇰 香港 MC 05, 🇭🇰 香港 MC 06, 🇭🇰 香港 MC 07, 🇭🇰 香港 MC 08, 🇭🇰 香港 MC 09, 🇭🇰 香港 MC 10, 🇭🇰 香港 MC 11*, 🇭🇰 香港 MC 12*, 🇭🇰 香港 MC 13*, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
+static=新加坡, 🇸🇬 新加坡 IEPL 01, 🇸🇬 新加坡 IEPL 02, 🇸🇬 新加坡 IEPL 03, 🇸🇬 新加坡 IEPL 04, 🇸🇬 新加坡 IEPL 05, 🇸🇬 新加坡 IEPL 06*, 🇸🇬 新加坡 IEPL 07*, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
+static=其他, 🇷🇺 俄罗斯 IEPL 01, 🇹🇼 台湾 Hinet 01*, 🇹🇼 台湾 PremiumAccess 01, 🇹🇼 台湾 PremiumAccess 02, 🇹🇼 台湾 PremiumAccess 03, 🇯🇵 日本 IEPL 01, 🇯🇵 日本 IEPL 02, 🇯🇵 日本 IEPL 03*, 🇯🇵 日本 IEPL 04, 🇯🇵 日本 IEPL 05, 🇹🇭 泰国 IEPL 01*, 🇺🇸 美国 IEPL 01, 🇺🇸 美国 IEPL 02, 🇺🇸 美国 IEPL 03*, 🇬🇧 英国 IEPL 01*, 🇦🇷 阿根廷 IEPL 01*, 🇰🇷 韩国 IEPL 01, 🇰🇷 韩国 IEPL 02, 🇰🇷 韩国 IEPL 03, 🇰🇷 韩国 IEPL 04, 马来西亚 IEPL 01*, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Area.png
+static=广告拦截, 屏蔽, 节点选择, 直连, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
+static=漏网之鱼, 节点选择, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
+static=直连, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
+static=屏蔽, REJECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Reject.png
+
+[server_remote]
+https://suc.exflux.me/sub?target=quanx&url=https%3A%2F%2Fapi.exfluxnetworks.com%3A4433%2Flink%2F9bCtDuiB6I2OQMic%3Fsub%3D1&insert=false&exclude=%E6%B8%B8%E6%88%8F&include=%E9%A6%99%E6%B8%AF&emoji=true&list=true&udp=false&tfo=false&scv=false&fdn=false&sort=false, tag=Hong_Kong, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png, enabled=true
+https://suc.exflux.me/sub?target=quanx&url=https%3A%2F%2Fapi.exfluxnetworks.com%3A4433%2Flink%2F9bCtDuiB6I2OQMic%3Fsub%3D1&insert=false&exclude=%E6%B8%B8%E6%88%8F&include=%E6%96%B0%E5%8A%A0%E5%9D%A1&emoji=true&list=true&udp=false&tfo=false&scv=false&fdn=false&sort=false, tag=Singapore, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png, enabled=true
+https://suc.exflux.me/sub?target=quanx&url=https%3A%2F%2Fapi.exfluxnetworks.com%3A4433%2Flink%2F9bCtDuiB6I2OQMic%3Fsub%3D1&insert=false&exclude=%E6%B8%B8%E6%88%8F%7C%E6%96%B0%E5%8A%A0%E5%9D%A1%7C%E9%A6%99%E6%B8%AF&emoji=true&list=true&udp=false&tfo=false&scv=false&fdn=false&sort=false, tag=Others, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Area.png, enabled=true
+[filter_remote]
+https://raw.githubusercontent.com/BDFLR/-QuantumultX-/main/Emby.list, tag=Emby, enabled=true
+https://raw.githubusercontent.com/BDFLR/-QuantumultX-/main/BanAD.list, tag=广告拦截, enabled=true
+https://raw.githubusercontent.com/BDFLR/-QuantumultX-/main/Telegram.list, tag=Telegram, enabled=true
+https://raw.githubusercontent.com/BDFLR/-QuantumultX-/main/Netflix.list, tag=NETFLIX, enabled=true
+https://raw.githubusercontent.com/BDFLR/-QuantumultX-/main/Microsoft, tag=Microsoft, enabled=true
+https://raw.githubusercontent.com/BDFLR/-QuantumultX-/main/ProxyGFWlist.list, tag=ProxyGFWlist, enabled=true
+https://raw.githubusercontent.com/BDFLR/-QuantumultX-/main/ChinaIp.list, tag=ChinaIp, enabled=true
+https://raw.githubusercontent.com/BDFLR/-QuantumultX-/main/ChinaDomain.list, tag=ChinaDomain, enabled=true
+https://raw.githubusercontent.com/BDFLR/-QuantumultX-/main/GoogleCN.list, tag=GoogleCN, enabled=true
+https://raw.githubusercontent.com/BDFLR/-QuantumultX-/main/LocalAreaNetwork.list, tag=LocalAreaNetwork, enabled=true
+
+[rewrite_remote]
+https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Rewrite/Rewrite.list, tag=Rewrite (Stick Rules), enabled=true
+
+[server_local]
+
+[filter_local]
+GEOIP, CN, DIRECT
+FINAL,漏网之鱼
+
+[rewrite_local]
+
+[mitm]
