@@ -106,7 +106,7 @@ HOST-SUFFIX,jomodns.com,DIRECT
 HOST-SUFFIX,yunjiasu-cdn.net,DIRECT
 
 # Bilibili
-HOST-SUFFIX,acg.tv
+HOST-SUFFIX,acg.tv,DIRECT
 HOST-SUFFIX,acgvideo.com,DIRECT
 HOST-SUFFIX,b23.tv,DIRECT
 HOST-SUFFIX,biliapi.com,DIRECT
